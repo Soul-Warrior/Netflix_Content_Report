@@ -26,7 +26,6 @@ Cleaning the Dataset :
         ) duration: Time duration of the show
         ) listed_in: Genre of the show
         ) description: Some text describing the show    
-
     -> In View Ribbon, check Column Quality and Column Distribution.
     -> Since column "director" and "cast" has varying values with multiple missig values, remove those columns.
     -> Columns "rating" and "date_added" have very few missing values, so we remove the rows with missing values in those columns. (Or alternatively, fill those columns with actual values if you want to use entire dataset) 

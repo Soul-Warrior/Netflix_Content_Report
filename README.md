@@ -13,7 +13,7 @@ Creating new file and Uploading the Dataset :
 
 Cleaning the Dataset : 
 
-  -> The dataset has 7787 rows and 12 columns:
+    -> The dataset has 7787 rows and 12 columns:
         ) show_id: unique id of each show
         ) type: The category of a show, can be either a Movie or a TV Show
         ) title: Name of the show
@@ -25,7 +25,7 @@ Cleaning the Dataset :
         ) rating: Show rating on netflix
         ) duration: Time duration of the show
         ) listed_in: Genre of the show
-        ) description: Some text describing the show    
+        ) description: Some text describing the show          
     -> In View Ribbon, check Column Quality and Column Distribution.
     -> Since column "director" and "cast" has varying values with multiple missig values, remove those columns.
     -> Columns "rating" and "date_added" have very few missing values, so we remove the rows with missing values in those columns. (Or alternatively, fill those columns with actual values if you want to use entire dataset) 
